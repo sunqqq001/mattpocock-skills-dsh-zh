@@ -1,0 +1,5 @@
+# mattpocock-skills-dsh-zh bundle patch：把中文技能提供者挂载进 host 技能
+# 注册表（host-plane 行，会被合并进每个 agent preset 的作用域链）。
+- insert:
+    - id: mattpocock-skills-dsh-zh
+      name: 'mattpocock-skills-dsh-zh'
