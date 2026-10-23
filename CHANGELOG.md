@@ -18,10 +18,11 @@
   `SKILL-MECHANICS.md`、`LOGIC.md`、`UI.md`、`HTML-REPORT.md`、各
   `*-FORMAT.md`、`issue-tracker-*.md`、`domain.md`、`triage-labels.md`、
   `mocking.md`、`tests.md`）与正文同等标准汉化；2 个 `.sh` 模板脚本
-  （`template.sh`、`hitl-loop.template.sh`）保持英文原样。官方中文版
+  （`template.sh`、`hitl-loop.template.sh`）保持英文原样。另一第三方中文版
   缺少的这些文件在本包中全部齐备，正文相对引用不再断链。
-- **技能命名**：沿用官方中文版的 `-zh` 后缀策略（25 个技能名统一带
-  `-zh`），避免与英文版、用户级同名技能互相遮蔽。
+- **技能命名**：沿用既有第三方中文版（`gongyijie85/mattpocock-skills-dsh-zh`）
+  的 `-zh` 后缀策略（25 个技能名统一带 `-zh`），避免与英文版、用户级同名
+  技能互相遮蔽。
 - **校验增强**：`scripts/verify-provider.mjs` 新增两条断言——description
   必须为中文、正文引用的每个相对文件必须真实存在于技能目录
   （resourceBase 解析）。
@@ -32,9 +33,9 @@
   位置）。
 - **元数据**：`dsh.plugin.json` / `cordis.patch.yml` / `lib/index.js`
   的包 id 与提供者名改为 `mattpocock-skills-dsh-zh`；`lib/index.js`
-  注释汉化；版本号 `0.1.8-local.1`（高于官方 npm 版 0.1.6，便于本地
+  注释汉化；版本号 `0.1.8-local.1`（高于 npm 上已发布的 0.1.6 版，便于本地
   覆盖安装）。
-- **README**：重写为本地完整汉化版说明（安装、技能列表、与官方中文版
+- **README**：重写为本地完整汉化版说明（安装、技能列表、与其它中文版
   的差异、汉化与移植说明）；移除 `README.en.md`。
 
 ### Inherited（继承英文版 v0.1.7 的历史）
