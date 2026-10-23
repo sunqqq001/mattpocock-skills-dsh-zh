@@ -181,6 +181,13 @@ frontmatter 开头（`name` + `description`，可选 `whenToUse` 与
 npm run verify     # 发现/解析/调用映射/中文描述/相对引用完整性
 ```
 
+## 说明
+
+25 份译文、元数据和验证脚本由 AI 产出，人工定规范并审核。
+译文有偏差或代码有问题，提 issue 即可。
+
+Powered by: DSH
+
 ## 许可证
 
 MIT。技能内容改编自
