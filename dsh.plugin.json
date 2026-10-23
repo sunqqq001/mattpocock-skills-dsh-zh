@@ -1,5 +1,5 @@
 {
-  "id": "gongyijie85/mattpocock-skills-dsh-zh",
+  "id": "sunqqq001/mattpocock-skills-dsh-zh",
   "version": "0.1.8-local.1",
   "main": "./lib/index.js",
   "description": "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能正文与辅助文档全部汉化,完整保留英文版全部辅助文件,适配 DSH 的 Cordis 插件架构。Chinese translation of mattpocock/skills (MIT, (c) Matt Pocock), based on the English DSH port v0.1.7",

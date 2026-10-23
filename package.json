@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gongyijie85/mattpocock-skills-dsh-zh.git"
+    "url": "git+https://github.com/sunqqq001/mattpocock-skills-dsh-zh.git"
   },
-  "homepage": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh",
+  "homepage": "https://github.com/sunqqq001/mattpocock-skills-dsh-zh",
   "bugs": {
-    "url": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh/issues"
+    "url": "https://github.com/sunqqq001/mattpocock-skills-dsh-zh/issues"
   },
   "scripts": {
     "verify": "node scripts/verify-provider.mjs",
